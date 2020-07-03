@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  
+  body{
+    overflow: hidden;
+  }
+  
+  .container{
+    width:100vw;
+  }
+  
+  #main-section{
+    text-align: center;
+  }
+  /*For the dark image overlay*/
+  .image-div:after{
+    content:"";
+    width:100vw;
+    height:100vh;
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #000;
+    opacity: 0.5;
+  }
+  
+  .tiger-image{
+    width:100vw;
+    height:100vh;
+    object-fit:cover;
+    object-position: center;
+  }
+  
+  .text-div{
+    position: relative;
+    bottom:55vh;
+  }
+  
+  .title{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size:3.75rem;
+    color:#e5e5e5;
+  }
+  
+  .explore-link{
+    color:#fff;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .explore-link:hover{
+    text-decoration: underline;
+  }
+  
+  .detail-links{
+    color:#fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    font-size:0.8rem;
+  }
+  
+  .detail{
+    margin: 3vw auto;
+    opacity: 0;
+  }
+  
+  .detail:hover{
+    text-decoration: underline;
+  }
+  
+  .detail:nth-child(2){
+    margin:7vh auto;
+  }
+  
+  no-td{
+    text-decoration: none;
+  }
+  
+  .about-div{
+    position: relative;
+    bottom:40vh;
+    transform:translateX(-100vw);
+  }
+  
+  .about-head{
+    font-family: "Montserrat", sans-serif;
+    margin-bottom:1vw;
+  }
+  
+  .about-text{
+    font-family: "Montserrat", sans-serif;
+    padding:5vw;
+  }
